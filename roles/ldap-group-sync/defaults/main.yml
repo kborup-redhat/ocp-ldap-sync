@@ -1,0 +1,13 @@
+---
+# defaults file for ldap-group-sync
+
+ldap_bind_password: 'simple-bind-password'
+
+# TODO: Are we going to have same user for all environments ?
+ldap_bind_user: 'simple-bind-username'
+
+# TODO: current LDAP endpoint is a single point of failure. Change to loadbalanced endpoint
+ldap_endpoint: 'ldaps://ad1.office.example.com'
+
+
+
