@@ -1,10 +1,7 @@
 ---
-- name: Demo playbook to work with openshift
+- name: Setup ldap sync job in openshift
   hosts: localhost
   tasks:
-    - name: Include role to configure ldap oauth
-      include_role:
-        name: ldap-oauth
 
     - name: Include role to setup ldap group sync
       include_role:
